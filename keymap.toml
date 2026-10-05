@@ -16,3 +16,8 @@ desc = "run lazygit"
 on = ["M", "s"]
 run = "plugin sshfs -- menu"
 desc = "Open SSHFS options"
+
+[[mgr.prepend_keymap]]
+on = ["t", "q"]
+run = "tab_close"
+desc = "Close current tab"
