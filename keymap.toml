@@ -19,5 +19,5 @@ desc = "Open SSHFS options"
 
 [[mgr.prepend_keymap]]
 on = ["t", "q"]
-run = "tab_close"
+run = "close"
 desc = "Close current tab"
